@@ -8,4 +8,15 @@ $(function() {
       $(this).addClass('fa-square');
     };
   })
+
+  $('.menu-icon').click(function(){
+    $('.sidebar').show();
+
+    $('.sidebar-content').animate({right: 0}, 500);
+  })
+  $('.fa-times').click(function(){
+    $('.sidebar').hide();
+    $('.sidebar-content').animate({right: '-250px'}, 500);
+
+  })
 });

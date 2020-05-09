@@ -145,3 +145,36 @@ textarea{
 .bottom-wrapper-right span{
   padding: 0 10px;
 }
+.sidebar{
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+.sidebar-content{
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  bottom: 0;
+  padding: 24px 40px;
+}
+.sidebar-content-list a{
+  display: block;
+  text-decoration: none;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 24px 0;
+  color: black;
+}
+.fa-times{
+  position: fixed;
+  font-size: 45px;
+  top: 10px;
+  left: 70px;
+}
