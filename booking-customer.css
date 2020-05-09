@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  padding: 0 22px;
+  font-family: 'Libre Caslon Text', serif;
+}
+.menu-icon{
+  color: black;
+  float: right;
+  font-size: 25px;
+  padding: 18px 0;
+}
+header{
+  height: 65px;
+  width: 100%;
+  background-color: white;
+}
+.top-wrapper{
+  letter-spacing: 1px;
+  font-family: 'Libre Caslon Text', serif;
+}
+.menu-left{
+  font-size: 13px;
+  padding: 10px 16px;
+}
+.menu-left span{
+  padding: 0 10px;
+}
+.home-btn {
+  text-decoration: none;
+}
+.booking-btn{
+  text-decoration: none;
+}
+.menu-left span{
+  padding-right: 10px;
+}
+.booking-title{
+  padding: 45px 0 21px;
+}
+.booking-title h1{
+  font-size: 25px;
+  text-align: center;
+}
+.booking-title h2{
+  font-size: 16px;
+  text-align: center;
+  padding-top: 16px;
+}
+.booking-title-line{
+  height: 1px;
+  width: 46px;
+  background-color: black;
+  margin: 19px auto 0;
+}
+.customer-section-top{
+  display:flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.customer-note-line{
+  height: 1px;
+  width: 13px;
+  background-color: black;
+  margin-right: 13px;
+}
+.customer-section input{
+  border: 1px solid black;
+}
+.customer-section{
+
+}
+.customer-wrapper{
+  padding: 0 22px;
+}
